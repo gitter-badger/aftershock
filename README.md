@@ -1,2 +1,3 @@
-# artisan-sensation
-Funny laravel blog with little sensation
+## Artisan Sensation
+
+**Buggy & Under Development**
