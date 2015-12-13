@@ -38,7 +38,7 @@ class User extends Model implements AuthenticatableContract,
     protected $hidden = ['password', 'remember_token'];
 
     /**
-     * A user can have many articles.
+     * A user can have many post.
      * 
      * @return Illuminate\Database\Eloquent\Relations\hasMany
      */

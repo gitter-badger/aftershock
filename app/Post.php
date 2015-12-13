@@ -9,7 +9,7 @@ class Post extends Model
 {
 
     /**
-     * Fillable fields for an Article.
+     * Fillable fields for an Post.
      * 
      * @var array
      */
@@ -27,7 +27,7 @@ class Post extends Model
     protected $dates = ['published_at'];
 
     /**
-     * Find published article.
+     * Find published post.
      * 
      * @param  $query
      * @return Response
@@ -38,7 +38,7 @@ class Post extends Model
     }
 
     /**
-     * Find unpublished article.
+     * Find unpublished post.
      * 
      * @param  $query
      * @return Response
@@ -70,7 +70,7 @@ class Post extends Model
     }
 
     /**
-     * An article is owned  by a user.
+     * An post is owned  by a user.
      * 
      * @return Illuminate\Database\Eloquent\Relations\BelongsTo
      */

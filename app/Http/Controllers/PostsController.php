@@ -12,7 +12,7 @@ class PostsController extends Controller
 {
 
 	/**
-	 * Middleware in articles page
+	 * Middleware in post page.
 	 */
 	public function __construct()
     {
@@ -20,7 +20,7 @@ class PostsController extends Controller
     }
 
 	/**
-	 * Display list article.
+	 * Display list post.
 	 * 
 	 * @return Response
 	 */
@@ -32,9 +32,9 @@ class PostsController extends Controller
 	}
 
 	/**
-	 * Show single an article
+	 * Show single an post.
 	 * 
-	 * @param  Article $articles
+	 * @param  Post $posts
 	 * @return Response
 	 */
 	public function show(Post $posts)
@@ -43,7 +43,7 @@ class PostsController extends Controller
 	}
 
 	/**
-	 * Form article
+	 * Form for create new post.
 	 * 
 	 * @return Response
 	 */
@@ -53,9 +53,9 @@ class PostsController extends Controller
 	}
 
 	/**
-	 * Save an new article
+	 * Save an new post.
 	 * 
-	 * @param  ArticleRequest $request
+	 * @param  PostRequest $request
 	 * @return Response
 	 */
 	public function store(PostRequest $request)
@@ -66,7 +66,7 @@ class PostsController extends Controller
 	}
 
 	/**
-	 * Edit form ur article
+	 * Edit your post.
 	 * 
 	 * @return Response
 	 */
@@ -76,10 +76,10 @@ class PostsController extends Controller
 	}
 
 	/**
-	 * Update ur article
+	 * Update your post.
 	 * 
-	 * @param  Article        $articles
-	 * @param  ArticleRequest $request
+	 * @param  Post        $posts
+	 * @param  PostRequest $request
 	 * @return Response
 	 */
 	public function update(Post $posts, PostRequest $request)
@@ -88,5 +88,4 @@ class PostsController extends Controller
 
 		return redirect('posts');
 	}
-	
 }
