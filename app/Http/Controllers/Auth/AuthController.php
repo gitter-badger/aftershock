@@ -34,6 +34,12 @@ class AuthController extends Controller
     }
 
     /**
+     * Redirect after login.
+     * @var string
+     */
+    protected $redirectPath = '/';
+
+    /**
      * Get a validator for an incoming registration request.
      *
      * @param  array  $data
