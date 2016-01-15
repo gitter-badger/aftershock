@@ -13,6 +13,7 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
+      {{-- Active and inactive link when visited --}}
       <li class="{{ Request::is('posts') ? 'active' : '' }}"><a href="/">Blog</a></li>
       <li class="{{ Request::is('about') ? 'active': '' }}"><a href="{{ url() }}/about">About</a></li>
     </ul>
@@ -24,9 +25,13 @@
         </div>
         <button type="submit" class="btn btn-danger">Search</button>
       </form>
+      {{-- Dropdown control panel when user login --}}
       @unless ( !\Auth::user())
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diki Andriansyah <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          {{-- Show full name user --}}
+          {{ \Auth::user()->name }} <b class="caret"></b>
+        </a>
         <ul class="dropdown-menu">
           <li><a href="#">Dashboard</a></li>
           <li><a href="#">Articles</a></li>

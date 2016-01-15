@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('title', 'Artisan Sensation - Post')
+
 @section('content')
 
 <div class="col-md-9 col-xs-12">
@@ -15,7 +17,7 @@
 					</div>
 					<div class="col-md-8 col-xs-12 pull-left">
 						<div class="body">
-							{{ $post->body }}
+							{{ Illuminate\Support\Str::words($post->body) }}
 						</div>
 					</div>
 				</div>
