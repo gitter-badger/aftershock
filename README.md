@@ -1,4 +1,4 @@
-![Aftershock](http://i.imgur.com/nXTL6o6.png)
+![Aftershock](http://i.imgur.com/XD9eKnI.png)
 
 **[Aftershock](https://dikiaap.id)** is open source, free, and for Diary CMS built with **Laravel PHP Framework**.
 
