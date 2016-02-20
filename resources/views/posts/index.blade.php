@@ -13,7 +13,7 @@
 				<hr>
 				<div class="row">
 					<div class="col-md-4 col-xs-12 pull-left">
-						<img src="{{ url() }}/assets/images/crispy-tux.png" class="img-responsive thumbnail" alt="">
+						<img src="{{ url() }}/img/dummy/crispy-tux.png" class="img-responsive thumbnail" alt="">
 					</div>
 					<div class="col-md-8 col-xs-12 pull-left">
 						<div class="body">
