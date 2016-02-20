@@ -1,6 +1,7 @@
+# Core ...
 /vendor
 /node_modules
-/public/phpliteadmin/
-Homestead.yaml
-Homestead.json
 .env
+
+# Support building ...
+/public/phpliteadmin # Some time I using sqlite3. https://github.com/phpLiteAdmin/pla 
