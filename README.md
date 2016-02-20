@@ -1,10 +1,8 @@
-![Aftershock](http://i.imgur.com/XD9eKnI.png)
+<p align="center">
+  <img src="http://i.imgur.com/XD9eKnI.png" alt="Aftershock">
+</p>
 
-**[Aftershock](https://dikiaap.id)** is open source, free, and for Diary CMS built with **Laravel PHP Framework**.
-
-* **A Simple**, with a beautiful interface, make you keep beside at Aftershock.
-* **Useful**, always create your daily diary.
-* **Remember**, In the future, you will smile see your diary.
+**[Aftershock](https://dikiaap.id)** is Diary Content Management System (CMS) and built with Laravel PHP Framework. It's based on web platform and make your daily diary will reborn.  Missions: **A Simple**, with a beautiful interface, make you keep beside at Aftershock. **Useful**, always create your daily diary. **Remember**, In the future, you will smile see your diary.
 
 [![Build Status](https://api.travis-ci.org/dikiaap/aftershock.svg)](https://travis-ci.org/dikiaap/aftershock)
 [![Composer Cache](https://shield.with.social/cc/github/dikiaap/aftershock/master.svg)](https://packagist.org/packages/laravel/framework)
