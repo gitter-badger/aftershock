@@ -11,6 +11,8 @@
 
 ## Status
 
+[![Join the chat at https://gitter.im/dikiaap/aftershock](https://badges.gitter.im/dikiaap/aftershock.svg)](https://gitter.im/dikiaap/aftershock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Building ... Coming Soon ...
 
 ## License
